@@ -46,20 +46,22 @@
     <div id="wrapper">
         <!-- Sidebar -->
         <ul class="navbar-nav bg-primary sidebar sidebar-dark accordion" id="accordionSidebar">
-        <!-- Sidebar - imagen -->
-        <center>
-            <a class="navbar-brand" href="menu_administrador.php"><img src="img/Logo.jpg" alt="" width="65" height="0" class="rounded img-fluid d-inline-block align-text-top"></a>
-        </center>
-        <hr class="sidebar-divider my-0">
-        <br>
-        <!-- Nav Item - Dashboard -->
-        <li class="nav-item">
-            <a class="nav-link" href="editar_datos_admi.php?id_usuario=<?php echo $_SESSION['id_usuario']; ?>" ><i class="bi bi-gear-fill"></i><span>Editar Datos</span></a>
-        </li>
-        
-        <li class="nav-item">
-            <a class="nav-link" href="foro2.php"><i class="bi bi-chat-dots-fill"></i><span>Foro</span></a>
-        </li>
+            <!-- Sidebar - imagen -->
+            <center>
+                <a class="navbar-brand" href="menu_administrador.php"><img src="img/Logo.jpg" alt="" width="65" height="0" class="rounded img-fluid d-inline-block align-text-top"></a>
+            </center>
+            <hr class="sidebar-divider my-0">
+            <br>
+            <!-- Nav Item - Dashboard -->
+            <li class="nav-item">
+                <a class="nav-link" href="editar_datos_admi.php?id_usuario=<?php echo $_SESSION['id_usuario']; ?>" ><i class="bi bi-gear-fill"></i><span>Editar Datos</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="foro2.php"><i class="bi bi-chat-dots-fill"></i><span>Foro</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="publicacion.php"><i class="bi bi-chat-dots-fill"></i><span>Añadir publicación</span></a>
+            </li>
         </ul>
         <div id="content-wrapper" class="d-flex flex-column">
         <div id="content">

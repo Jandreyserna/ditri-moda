@@ -53,11 +53,13 @@
             <br>
             <!-- Nav Item - Dashboard -->
             <li class="nav-item">
-                <a class="nav-link" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1" data-idprograma="<?php echo $fila['id_usuario']; ?>">
-                <i class="bi bi-gear-fill" type="button" data-toggle="collapse" data-target="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample2"></i><span>Editar Datos</span></a></a>
+                <a class="nav-link" href="editar_datos_admi.php?id_usuario=<?php echo $_SESSION['id_usuario']; ?>" ><i class="bi bi-gear-fill"></i><span>Editar Datos</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="foro2.php"><i class="bi bi-chat-square-text-fill"></i><span>Foro</span></a>
+                <a class="nav-link" href="foro2.php"><i class="bi bi-chat-dots-fill"></i><span>Foro</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="publicacion.php"><i class="bi bi-chat-dots-fill"></i><span>Añadir publicación</span></a>
             </li>
         </ul>
         
