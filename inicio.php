@@ -1,61 +1,6 @@
 <?php
 require_once('header.php');
 ?>
-    <div class="imagendefondo">
-        <div id="menu">
-          <div id="encabezados">
-            <div class="btn-menu"><input id="btn1" onchange="cambiarvista()" type="radio" name="seccion-name" checked><label for="btn1">Reservar vuelo</label></div>
-            <div class="btn-menu"><input id="btn2" onchange="cambiarvista()" type="radio" name="seccion-name"><label for="btn2">Gestionar tu reserva</label></div>
-            <div class="btn-menu"><input id="btn3" onchange="cambiarvista()" type="radio" name="seccion-name"><label for="btn3">Check-in</label></div>
-            <div class="btn-menu"><input id="btn4" onchange="cambiarvista()" type="radio" name="seccion-name"><label for="btn4">Estado del vuelo</label></div>
-          </div>
-        </div>
-        <!-- buscador -->
-        <div id="vista">
-          <div id="vista1">
-              <label><input type="radio" name="tipo-de-viaje">solo ida</label>
-              <label><input type="radio" name="tipo-de-viaje">ida y vuelta</label>
-          </div>
-          <!-- preguntas buscador -->
-          <div class="preguntas-buscador">
-            <div class="row">
-              
-              <div class="col pregunta1">
-                <label for="pregunta1">¿A donde viajas?</label>
-                <div class="col">
-                  <input type="text" name="origen" id="origen-buscador">
-                  <span class="icon-flight_takeoff"></span>
-                  <input type="text" name="destino" id="destino-buscador">
-                  <span class="icon-flight_land"></span>
-                </div>
-              </div>
-              
-              <div class="col pregunta2">
-                <label for="pregunta2">¿Cuando Viajas?</label>
-                <div class="col">
-                  <input type="date" >
-                  <input type="date" >
-                </div>
-              </div>
-
-              <div class="col pregunta3">
-                <label for="pregunta3">¿Cuantos viajan?</label>
-                <input type="number"><span class="icon-person_add_alt_1"></span>
-              </div>
-
-              <div class="col">
-                <button class="btn btn-primary" id="buscar-vuelo">Buscar vuelo</button>
-              </div>
-              
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id="resultado">
-        
-      </div>
-    <br>
-    <br>
     <div class="row">
       <div class="col">
         <div class="carrusel">

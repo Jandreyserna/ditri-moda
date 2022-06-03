@@ -32,7 +32,7 @@
         <nav class="navbar navbar-inverse navbar-dark bg-primary">
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="#"><img src="img/Logotipo.png" alt="" width="60" height="60" class="rounded img-fluid d-inline-block align-text-top"></a>
+                    <a class="navbar-brand" href="#"><img src="img/Logo.jpg" alt="" width="60" height="60" class="rounded img-fluid d-inline-block align-text-top"></a>
                 </div>
                 <div class="navbar-nav mr-auto">
                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalSalir">Cerrar Sesión <i class="bi bi-box-arrow-right"></i></button>

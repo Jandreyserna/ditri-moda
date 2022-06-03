@@ -47,7 +47,7 @@
         <ul class="navbar-nav bg-primary sidebar sidebar-dark accordion" id="accordionSidebar">
             <!-- Sidebar - imagen -->
             <center>
-                <a class="navbar-brand" href="menu_administrador.php"><img src="img/Logotipo.png" alt="" width="65" height="0" class="rounded img-fluid d-inline-block align-text-top"></a>
+                <a class="navbar-brand" href="menu_administrador.php"><img src="img/Logo.jpg" alt="" width="65" height="0" class="rounded img-fluid d-inline-block align-text-top"></a>
             </center>
             <hr class="sidebar-divider my-0">
             <br>
@@ -55,18 +55,6 @@
             <li class="nav-item">
                 <a class="nav-link" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1" data-idprograma="<?php echo $fila['id_usuario']; ?>">
                 <i class="bi bi-gear-fill" type="button" data-toggle="collapse" data-target="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample2"></i><span>Editar Datos</span></a></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTree" aria-expanded="true" aria-controls="collapseTwo">
-                <i class="bi bi-send-fill"></i><span>Listar Vuelos</span></a>
-                <div id="collapseTree" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded"> 
-                        <h6 class="collapse-header">Tipo de Vuelo:</h6>
-                        <a class="collapse-item" href="listar_vuelo_nacional.php">Nacional</a>
-                        <a class="collapse-item" href="listar_vuelo_internacionalida.php">Colombia --> Internacional</a>
-                        <a class="collapse-item" href="listar_vuelo_internacionalregreso.php">Internacional --> Colombia</a>
-                    </div>
-                </div>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="foro2.php"><i class="bi bi-chat-square-text-fill"></i><span>Foro</span></a>

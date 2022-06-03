@@ -23,7 +23,7 @@
 		'$id_genero', '$pais', '$estado', '$ciudad', '$direccion', '$email', '$user', '$pass', '$confirmPass', '$nom_imagen', '3')";
 
 		mysqli_query($enlace, $consulta);
-		header("Location: inicio.html");
+		header("Location: inicio.php");
 	}
 	mysqli_close($enlace);
 ?>	
